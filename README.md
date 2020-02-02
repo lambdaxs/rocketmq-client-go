@@ -14,6 +14,9 @@ or create a new issue.
 
 ----------
 ## Features
+
+- v1.2.5
+
 in 2.0.0-alpha1, support:
 * sending message in synchronous mode
 * sending message in oneway mode
