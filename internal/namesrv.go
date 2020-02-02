@@ -20,9 +20,9 @@ package internal
 import (
 	"errors"
 	"fmt"
-	"github.com/apache/rocketmq-client-go/internal/remote"
-	"github.com/apache/rocketmq-client-go/primitive"
-	"github.com/apache/rocketmq-client-go/rlog"
+	"github.com/lambdaxs/rocketmq-client-go/internal/remote"
+	"github.com/lambdaxs/rocketmq-client-go/primitive"
+	"github.com/lambdaxs/rocketmq-client-go/rlog"
 	"io/ioutil"
 	"net/http"
 	"os"

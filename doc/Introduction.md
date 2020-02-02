@@ -29,7 +29,7 @@ your could download directly or build manually:
 
 - import package
     ```
-    import rocketmq "github.com/apache/rocketmq-client-go/core"
+    import rocketmq "github.com/lambdaxs/rocketmq-client-go/core"
     ```
 - Send message
     ```go

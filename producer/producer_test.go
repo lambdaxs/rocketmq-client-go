@@ -24,9 +24,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/apache/rocketmq-client-go/internal"
-	"github.com/apache/rocketmq-client-go/internal/remote"
-	"github.com/apache/rocketmq-client-go/primitive"
+	"github.com/lambdaxs/rocketmq-client-go/internal"
+	"github.com/lambdaxs/rocketmq-client-go/internal/remote"
+	"github.com/lambdaxs/rocketmq-client-go/primitive"
 )
 
 const (

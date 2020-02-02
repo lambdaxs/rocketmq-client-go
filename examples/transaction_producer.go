@@ -19,7 +19,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/apache/rocketmq-client-go/core"
+	"github.com/lambdaxs/rocketmq-client-go/core"
 	"time"
 )
 

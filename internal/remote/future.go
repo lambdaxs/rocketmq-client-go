@@ -21,7 +21,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/apache/rocketmq-client-go/internal/utils"
+	"github.com/lambdaxs/rocketmq-client-go/internal/utils"
 )
 
 // ResponseFuture
