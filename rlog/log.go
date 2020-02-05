@@ -43,11 +43,13 @@ type Logger interface {
 	Fatal(msg string, fields map[string]interface{})
 }
 
-func init() {
+func Init(level string) {
 	r := &defaultLogger{
 		logger: logrus.New(),
 	}
-	level := os.Getenv("ROCKETMQ_GO_LOG_LEVEL")
+	if level == "" {
+		level = os.Getenv("ROCKETMQ_GO_LOG_LEVEL")
+	}
 	switch strings.ToLower(level) {
 	case "debug":
 		r.logger.SetLevel(logrus.DebugLevel)
